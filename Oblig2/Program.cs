@@ -1,6 +1,9 @@
 ﻿using System.IO;
 using System;
 using System.Globalization;
+using System.Xml;
+using System.Security.Cryptography.X509Certificates;
+using Microsoft.VisualBasic;
 
 //oppgave1
 public class DataTable
@@ -76,13 +79,52 @@ public class DataTable
             double[] values = new double[row.Length - 1];
             for (int i = 1; i < row.Length; i++)
             {
-                values[i - 1] = double.Parse(row[i]);
+                values[i - 1] = double.Parse(row[i], CultureInfo.InvariantCulture);
             }
 
             DataRows.Add(new DataRow(dateTime, values));
         }
 
     }
+
+
+    //oppgave 3
+    public double[] GetColumn(string name)
+    {
+        //finner riktig index
+        int index = Columns.IndexOf(name);
+        double[] result = new double[DataRows.Count];
+
+
+        for (int i = 0; i < DataRows.Count; i++)
+        {
+            result[i] = DataRows[i].Values[index - 1];
+        }
+
+
+        return result;
+    }
+
+    // oppgave4: sorterings algo
+    public void BubbleSort()
+    {
+
+        for (int i = 0; i < DataRows.Count - 1; i++)
+        {
+            for (int j = 0; j < DataRows.Count - 1; j++)
+            {
+                if (DataRows[i].TimeStamp > DataRows[j + 1].TimeStamp)
+                {
+                    var temp = DataRows[j];
+                    DataRows[j] = DataRows[i];
+                    DataRows[i] = temp;
+                }
+            }
+        }
+
+
+    }
+
 
 }
 
@@ -112,7 +154,7 @@ class Program
         dt.LoadDataFromFile("dsDataTrain.csv");
 
 
-        //tester
+        //tester oppgave 1
 
         Console.WriteLine("Kolonner:");
         Console.WriteLine(string.Join("|", dt.Columns));
@@ -125,5 +167,19 @@ class Program
         }
 
 
+        //tester oppgave 2
+
+        dt.ConvertRowsToDataRows();
+
+        for (int i = 0; i < 5; i++)
+        {
+            var dr = dt.DataRows[i];
+            System.Console.WriteLine($"Timestamp: {dr.TimeStamp}, First value {dr.Values[0]}");
+        }
+
+
+
     }
+
+
 }
