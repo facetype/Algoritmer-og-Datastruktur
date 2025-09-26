@@ -1,0 +1,14 @@
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/bin/Debug/net9.0/Oblig3
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/bin/Debug/net9.0/Oblig3.deps.json
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/bin/Debug/net9.0/Oblig3.runtimeconfig.json
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/bin/Debug/net9.0/Oblig3.dll
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/bin/Debug/net9.0/Oblig3.pdb
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/obj/Debug/net9.0/Oblig3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/obj/Debug/net9.0/Oblig3.AssemblyInfoInputs.cache
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/obj/Debug/net9.0/Oblig3.AssemblyInfo.cs
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/obj/Debug/net9.0/Oblig3.csproj.CoreCompileInputs.cache
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/obj/Debug/net9.0/Oblig3.dll
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/obj/Debug/net9.0/refint/Oblig3.dll
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/obj/Debug/net9.0/Oblig3.pdb
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/obj/Debug/net9.0/Oblig3.genruntimeconfig.cache
+/Users/chris/Development/algoritmer_og_datastruktur/oblig3/Oblig3/obj/Debug/net9.0/ref/Oblig3.dll

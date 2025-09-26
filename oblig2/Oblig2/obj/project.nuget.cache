@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1NXSj44l/IU=",
+  "success": true,
+  "projectFilePath": "/Users/chris/Development/algoritmer_og_datastruktur/oblig2/Oblig2/Oblig2.csproj",
+  "expectedPackageFiles": [
+    "/Users/chris/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
